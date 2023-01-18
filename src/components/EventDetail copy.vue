@@ -9,9 +9,7 @@
     <h4>{{ event.category}}</h4>
     <h6>{{ event.place}}</h6>
     <h6>{{ event.author}}</h6>
-
     <div>Assist: <input type="checkbox" @click.stop="() => {}" /></div>
-
   </div>
 </template>
 

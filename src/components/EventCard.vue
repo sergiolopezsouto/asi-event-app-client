@@ -2,7 +2,7 @@
   <div class="container card">
     <div @click="goesTo">
       <div class="card-body">
-        <p class="card-text">
+        <p class="card-text" v-if="event.title">
           {{ event.title }}
         </p>
         <p class="card-text">
